@@ -1,18 +1,27 @@
-# WayClick -- Blazingly fast Wayland autoclicker
-Welcome to the WayClick manual, Wayclick is a python based autoclicker designed specifically for Linux distros using Wayland instead of x11. WayClick's designed to be blazingly fast and run in your background consuming nearly nothing while you get to play your favorite games!
+# WayClick — Blazingly Fast Wayland Autoclicker
 
-# Installation Guide
-First.. Clone the repository
+Welcome to the WayClick manual! WayClick is a Python-based autoclicker designed specifically for Linux distributions using Wayland instead of X11. It’s built to be extremely fast and run quietly in the background while consuming almost no system resources, allowing you to enjoy your favorite games without interruption.
+
+---
+
+## Installation Guide
+
+### 1. Clone the repository
+
 ```bash
-https://github.com/lucy407/WayClick
+git clone https://github.com/lucy407/WayClick
 ```
-Then in order to begin the real installation for WayClick, you must first install the necessary requirements/python dependencies. Start by running this bash command
-```bash
+# 2. Install the required Python dependencies
+
+Run the installation script:
+``` bash
 ./install_deps.sh
 ```
-After that, you have the dependincies needed to continue!
-Simply, run 
-```bash 
+This will install everything needed to run WayClick.
+
+# 3. Launch WayClick
+
+``` bash
 python3 main.py
 ```
-and enjoy!
+Enjoy using WayClick!
